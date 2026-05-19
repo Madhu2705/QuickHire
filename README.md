@@ -11,8 +11,7 @@ A full-stack MERN application that connects job seekers with employers. This pla
 - ✅ Track application status
 - ✅ Save favorite jobs
 - ✅ Update profile with skills and experience
-- ✅ Upload resume (PDF)
-- ✅ Dashboard with application stats
+
 
 ### For Recruiters:
 - ✅ Company profile management
@@ -20,9 +19,7 @@ A full-stack MERN application that connects job seekers with employers. This pla
 - ✅ View and manage job postings
 - ✅ Review applicants
 - ✅ Shortlist/Reject candidates
-- ✅ Add notes to applications
-- ✅ Rate candidates
-- ✅ Dashboard with analytics
+
 
 ### General Features:
 - 🎨 Modern, responsive UI with Tailwind CSS
@@ -31,8 +28,7 @@ A full-stack MERN application that connects job seekers with employers. This pla
 - 🔄 Context API for state management
 - 🚀 Fast API with Express.js
 - 📊 MongoDB database
-- 📤 File upload support for resumes
-- 🔔 Toast notifications
+
 
 ## Tech Stack
 
@@ -252,8 +248,7 @@ job_portal/
 3. Post job listings
 4. View applications from candidates
 5. Shortlist or reject candidates
-6. Add notes and rate candidates
-7. Manage job postings
+
 
 ## Component Highlights
 
@@ -306,18 +301,7 @@ job_portal/
 - Error boundary in React (optional)
 - Detailed error responses from API
 
-## Future Enhancements
 
-- [ ] Email notifications
-- [ ] Interview scheduling
-- [ ] Rating and reviews system
-- [ ] Advanced analytics
-- [ ] AI-powered job recommendations
-- [ ] Video resume support
-- [ ] Two-factor authentication
-- [ ] Social login (Google, GitHub)
-- [ ] Payment integration
-- [ ] Admin dashboard
 
 ## Contributing
 
@@ -327,37 +311,5 @@ job_portal/
 4. Push to the branch
 5. Create a Pull Request
 
-## License
 
-This project is licensed under the MIT License.
 
-## Support
-
-For support, email support@jobhub.com or create an issue in the repository.
-
-## Demo Credentials
-
-For testing purposes:
-- Candidate: candidate@example.com / password123
-- Recruiter: recruiter@example.com / password123
-
-## Performance Optimization
-
-- Code splitting with React.lazy()
-- Image optimization
-- API response caching
-- Debounced search
-- Pagination for large datasets
-- Database indexing
-- CDN for static assets
-
-## Security Features
-
-- JWT authentication
-- Password hashing with bcryptjs
-- CORS protection
-- XSS prevention
-- SQL injection prevention (MongoDB)
-- HTTPS in production
-- Environment variables for sensitive data
-- Input validation on both client and server
